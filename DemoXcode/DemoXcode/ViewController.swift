@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet var simpleTextField: UITextField!
     
@@ -21,6 +21,11 @@ class ViewController: UIViewController {
         // Tell the keyboard to go away
         self.simpleTextField.resignFirstResponder()
         
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return false
     }
     
     
