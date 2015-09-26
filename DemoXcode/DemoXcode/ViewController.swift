@@ -17,8 +17,17 @@ class ViewController: UIViewController {
     @IBAction func changedLabel(sender: AnyObject) {
     
         simpleLabel.text = "Hello, " + simpleTextField.text + "!"
+        
+        // Tell the keyboard to go away
+        self.simpleTextField.resignFirstResponder()
+        
     }
     
+    
+    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+        // if user types away from text field - send the keyboard away
+        self.view.endEditing(true)
+    }
     
     
     
