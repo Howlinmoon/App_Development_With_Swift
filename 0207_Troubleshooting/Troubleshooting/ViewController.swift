@@ -10,14 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+    @IBAction func doSomething(sender: AnyObject) {
+    
+        println("Doing something")
+    
+    }
+ 
+    
     @IBOutlet weak var timeLabel: UILabel!
     
     
     
     @IBAction func refreshTime(sender: AnyObject) {
         
-        print("Button was clicked")
-        
+       
         // get current date (includes time)
         let now = NSDate()
         
