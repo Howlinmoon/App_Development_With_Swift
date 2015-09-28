@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="WhatDay" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="MzH-TZ-fdj">
+                                <rect key="frame" x="0.0" y="60" width="600" height="162"/>
+                                <date key="date" timeIntervalSinceReferenceDate="465150378.06902897">
+                                    <!--2015-09-28 16:26:18 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MX4-Jw-7GU">
+                                <rect key="frame" x="217" y="240" width="166" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="UK8-JT-yDK"/>
+                                    <constraint firstAttribute="width" constant="166" id="qh5-GB-Pjd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="What Day is that?">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="displayDay:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ATV-kU-wie"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MX4-Jw-7GU" firstAttribute="centerX" secondItem="MzH-TZ-fdj" secondAttribute="centerX" id="Mzn-Q3-JQB"/>
+                            <constraint firstAttribute="trailing" secondItem="MzH-TZ-fdj" secondAttribute="trailing" id="jZr-4M-5mr"/>
+                            <constraint firstItem="MzH-TZ-fdj" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="lb1-97-AIf"/>
+                            <constraint firstItem="MX4-Jw-7GU" firstAttribute="top" secondItem="MzH-TZ-fdj" secondAttribute="bottom" constant="18" id="pL3-bd-Qsa"/>
+                            <constraint firstItem="MzH-TZ-fdj" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="40" id="u4j-nc-5We"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="datePicker" destination="MzH-TZ-fdj" id="93V-RU-cwW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
