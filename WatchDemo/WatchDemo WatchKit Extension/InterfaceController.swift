@@ -12,6 +12,14 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    
+    @IBOutlet var myLabel: WKInterfaceLabel!
+    
+    
+    @IBAction func changeLabel() {
+        myLabel.setText("First Watch App!")
+    }
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         

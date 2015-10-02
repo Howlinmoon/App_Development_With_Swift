@@ -14,23 +14,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96070FCB1BBD9BBC00415E45"
-               BuildableName = "WatchDemo.app"
-               BlueprintName = "WatchDemo"
+               BlueprintIdentifier = "96070FFE1BBD9C2200415E45"
+               BuildableName = "WatchDemo WatchKit App.app"
+               BlueprintName = "WatchDemo WatchKit App"
                ReferencedContainer = "container:WatchDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96070FE01BBD9BBC00415E45"
-               BuildableName = "WatchDemoTests.xctest"
-               BlueprintName = "WatchDemoTests"
+               BlueprintIdentifier = "96070FF41BBD9C2200415E45"
+               BuildableName = "WatchDemo WatchKit Extension.appex"
+               BlueprintName = "WatchDemo WatchKit Extension"
+               ReferencedContainer = "container:WatchDemo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "96070FCB1BBD9BBC00415E45"
+               BuildableName = "WatchDemo.app"
+               BlueprintName = "WatchDemo"
                ReferencedContainer = "container:WatchDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96070FE01BBD9BBC00415E45"
-               BuildableName = "WatchDemoTests.xctest"
-               BlueprintName = "WatchDemoTests"
-               ReferencedContainer = "container:WatchDemo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96070FCB1BBD9BBC00415E45"
-            BuildableName = "WatchDemo.app"
-            BlueprintName = "WatchDemo"
+            BlueprintIdentifier = "96070FFE1BBD9C2200415E45"
+            BuildableName = "WatchDemo WatchKit App.app"
+            BlueprintName = "WatchDemo WatchKit App"
             ReferencedContainer = "container:WatchDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +76,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/WatchDemo">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96070FCB1BBD9BBC00415E45"
-            BuildableName = "WatchDemo.app"
-            BlueprintName = "WatchDemo"
+            BlueprintIdentifier = "96070FFE1BBD9C2200415E45"
+            BuildableName = "WatchDemo WatchKit App.app"
+            BlueprintName = "WatchDemo WatchKit App"
             ReferencedContainer = "container:WatchDemo.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "96070FFE1BBD9C2200415E45"
+            BuildableName = "WatchDemo WatchKit App.app"
+            BlueprintName = "WatchDemo WatchKit App"
+            ReferencedContainer = "container:WatchDemo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/WatchDemo">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96070FCB1BBD9BBC00415E45"
-            BuildableName = "WatchDemo.app"
-            BlueprintName = "WatchDemo"
+            BlueprintIdentifier = "96070FFE1BBD9C2200415E45"
+            BuildableName = "WatchDemo WatchKit App.app"
+            BlueprintName = "WatchDemo WatchKit App"
             ReferencedContainer = "container:WatchDemo.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "96070FFE1BBD9C2200415E45"
+            BuildableName = "WatchDemo WatchKit App.app"
+            BlueprintName = "WatchDemo WatchKit App"
+            ReferencedContainer = "container:WatchDemo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

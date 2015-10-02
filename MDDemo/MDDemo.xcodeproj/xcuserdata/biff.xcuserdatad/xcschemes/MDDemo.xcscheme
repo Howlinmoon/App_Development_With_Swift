@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96070FCB1BBD9BBC00415E45"
-               BuildableName = "WatchDemo.app"
-               BlueprintName = "WatchDemo"
-               ReferencedContainer = "container:WatchDemo.xcodeproj">
+               BlueprintIdentifier = "96A96BF81BBE8B0A00C873DB"
+               BuildableName = "MDDemo.app"
+               BlueprintName = "MDDemo"
+               ReferencedContainer = "container:MDDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96070FE01BBD9BBC00415E45"
-               BuildableName = "WatchDemoTests.xctest"
-               BlueprintName = "WatchDemoTests"
-               ReferencedContainer = "container:WatchDemo.xcodeproj">
+               BlueprintIdentifier = "96A96C0F1BBE8B0A00C873DB"
+               BuildableName = "MDDemoTests.xctest"
+               BlueprintName = "MDDemoTests"
+               ReferencedContainer = "container:MDDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96070FE01BBD9BBC00415E45"
-               BuildableName = "WatchDemoTests.xctest"
-               BlueprintName = "WatchDemoTests"
-               ReferencedContainer = "container:WatchDemo.xcodeproj">
+               BlueprintIdentifier = "96A96C0F1BBE8B0A00C873DB"
+               BuildableName = "MDDemoTests.xctest"
+               BlueprintName = "MDDemoTests"
+               ReferencedContainer = "container:MDDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96070FCB1BBD9BBC00415E45"
-            BuildableName = "WatchDemo.app"
-            BlueprintName = "WatchDemo"
-            ReferencedContainer = "container:WatchDemo.xcodeproj">
+            BlueprintIdentifier = "96A96BF81BBE8B0A00C873DB"
+            BuildableName = "MDDemo.app"
+            BlueprintName = "MDDemo"
+            ReferencedContainer = "container:MDDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96070FCB1BBD9BBC00415E45"
-            BuildableName = "WatchDemo.app"
-            BlueprintName = "WatchDemo"
-            ReferencedContainer = "container:WatchDemo.xcodeproj">
+            BlueprintIdentifier = "96A96BF81BBE8B0A00C873DB"
+            BuildableName = "MDDemo.app"
+            BlueprintName = "MDDemo"
+            ReferencedContainer = "container:MDDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96070FCB1BBD9BBC00415E45"
-            BuildableName = "WatchDemo.app"
-            BlueprintName = "WatchDemo"
-            ReferencedContainer = "container:WatchDemo.xcodeproj">
+            BlueprintIdentifier = "96A96BF81BBE8B0A00C873DB"
+            BuildableName = "MDDemo.app"
+            BlueprintName = "MDDemo"
+            ReferencedContainer = "container:MDDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
