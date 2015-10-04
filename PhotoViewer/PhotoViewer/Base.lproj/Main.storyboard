@@ -8,13 +8,13 @@
         <!--Photos-->
         <scene sceneID="0n1-xs-R6K">
             <objects>
-                <tableViewController id="x1R-tz-w8h" sceneMemberID="viewController">
+                <tableViewController id="x1R-tz-w8h" customClass="PhotosTableViewController" customModule="PhotoViewer" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="1eq-e6-ktt">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="zfT-wc-VNo">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="zfT-wc-VNo">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zfT-wc-VNo" id="cqc-DT-XKf">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -35,10 +35,10 @@
             </objects>
             <point key="canvasLocation" x="1149" y="348"/>
         </scene>
-        <!--View Controller-->
+        <!--Display View Controller-->
         <scene sceneID="5D0-hQ-0my">
             <objects>
-                <viewController id="Nav-L1-zgo" sceneMemberID="viewController">
+                <viewController id="Nav-L1-zgo" customClass="DisplayViewController" customModule="PhotoViewer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ftB-7E-paF"/>
                         <viewControllerLayoutGuide type="bottom" id="ktZ-zx-4hw"/>
@@ -77,10 +77,10 @@
             </objects>
             <point key="canvasLocation" x="1836" y="348"/>
         </scene>
-        <!--View Controller-->
+        <!--Info View Controller-->
         <scene sceneID="fgg-vr-RHp">
             <objects>
-                <viewController id="3Mc-CP-EXR" sceneMemberID="viewController">
+                <viewController id="3Mc-CP-EXR" customClass="InfoViewController" customModule="PhotoViewer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="42D-ey-wKL"/>
                         <viewControllerLayoutGuide type="bottom" id="xSm-16-3Jg"/>
