@@ -14,6 +14,24 @@ class PhotosTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        var newPhoto = Photo(name: "Emerald Bay", filename: "emeraldbay", notes: "Emerald Bay, one of Lake Tahoe's most popular and photogenic locations")
+        photos.append(newPhoto)
+        
+        newPhoto = Photo(name: "A Joshua Tree", filename: "joshuatree", notes: "A Joshua Tree in the Mojave Desert")
+        photos.append(newPhoto)
+        
+        newPhoto = Photo(name: "Sunset in Ventura", filename: "sunset", notes: "Romantic sunset at the beach")
+        photos.append(newPhoto)
+        
+        newPhoto = Photo(name: "Snowman at Lake Tahoe", filename: "snowman", notes: "Lake Tahoe gets 400 inches of snow every year.")
+        photos.append(newPhoto)
+        
+        newPhoto = Photo(name: "Red Rock", filename: "redrock", notes: "Spectacular formations at Red Rock Canyon State Park")
+        photos.append(newPhoto)
+        
+
+        
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -32,24 +50,25 @@ class PhotosTableViewController: UITableViewController {
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Potentially incomplete method implementation.
         // Return the number of sections.
-        return 0
+        return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
-        return 0
+        return photos.count
+        
     }
 
-    /*
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as! UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! UITableViewCell
 
         // Configure the cell...
+        var currentPhoto = photos[indexPath.row]
+        cell.textLabel?.text = currentPhoto.name
 
         return cell
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.
@@ -86,14 +105,21 @@ class PhotosTableViewController: UITableViewController {
     }
     */
 
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using [segue destinationViewController].
         // Pass the selected object to the new view controller.
+        
+        var secondScene = segue.destinationViewController as! DisplayViewController
+        // pass the current photo object over
+        
+        if let indexPath = self.tableView.indexPathForSelectedRow() {
+            let selectedPhoto = photos[indexPath.row]
+            secondScene.currentPhoto = selectedPhoto
+        }
+        
     }
-    */
 
 }

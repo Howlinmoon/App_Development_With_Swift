@@ -12,10 +12,18 @@ class InfoViewController: UIViewController {
 
     @IBOutlet weak var details: UILabel!
     
+    var currentPhoto : Photo?
+    
+    @IBAction func dismiss(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        details.text = currentPhoto!.notes
+        
         // Do any additional setup after loading the view.
     }
 
