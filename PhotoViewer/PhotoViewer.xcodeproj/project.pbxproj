@@ -29,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		96036A291BC14F5E00C8FB1D /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		96036A291BC14F5E00C8FB1D /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Photo.swift; path = PhotoViewer/Photo.swift; sourceTree = "<group>"; };
 		96036A2B1BC1504E00C8FB1D /* PhotosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosTableViewController.swift; sourceTree = "<group>"; };
 		96036A2D1BC1509E00C8FB1D /* DisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
 		96036A2F1BC150B700C8FB1D /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +65,7 @@
 		96B05CC61BC05969005FB806 = {
 			isa = PBXGroup;
 			children = (
+				96036A291BC14F5E00C8FB1D /* Photo.swift */,
 				96B05CD11BC05969005FB806 /* PhotoViewer */,
 				96B05CE71BC05969005FB806 /* PhotoViewerTests */,
 				96B05CD01BC05969005FB806 /* Products */,
@@ -84,11 +85,10 @@
 			isa = PBXGroup;
 			children = (
 				96B05CD41BC05969005FB806 /* AppDelegate.swift */,
-				96036A291BC14F5E00C8FB1D /* Photo.swift */,
-				96036A2B1BC1504E00C8FB1D /* PhotosTableViewController.swift */,
+				96B05CD81BC05969005FB806 /* Main.storyboard */,
 				96036A2D1BC1509E00C8FB1D /* DisplayViewController.swift */,
 				96036A2F1BC150B700C8FB1D /* InfoViewController.swift */,
-				96B05CD81BC05969005FB806 /* Main.storyboard */,
+				96036A2B1BC1504E00C8FB1D /* PhotosTableViewController.swift */,
 				96B05CDB1BC05969005FB806 /* Images.xcassets */,
 				96B05CDD1BC05969005FB806 /* LaunchScreen.xib */,
 				96B05CD21BC05969005FB806 /* Supporting Files */,

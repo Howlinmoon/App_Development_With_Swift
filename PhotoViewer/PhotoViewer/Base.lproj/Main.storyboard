@@ -72,6 +72,9 @@
                             <constraint firstAttribute="trailing" secondItem="24c-sb-HWa" secondAttribute="trailing" id="q6D-cD-2rp"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="currentImage" destination="24c-sb-HWa" id="HzZ-16-ePb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dau-0x-L34" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -105,6 +108,9 @@
                         </subviews>
                         <color key="backgroundColor" red="0.43529411764705883" green="0.44313725490196076" blue="0.47450980392156861" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="details" destination="g3h-8z-hWb" id="bA0-T1-4bW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rvd-8O-Jrb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

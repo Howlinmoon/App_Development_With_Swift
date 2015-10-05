@@ -10,6 +10,11 @@ import UIKit
 
 class DisplayViewController: UIViewController {
 
+    var currentPhoto : Photo?
+    
+    @IBOutlet weak var currentImage: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

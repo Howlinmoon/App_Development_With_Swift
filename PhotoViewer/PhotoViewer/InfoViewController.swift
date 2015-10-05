@@ -10,6 +10,9 @@ import UIKit
 
 class InfoViewController: UIViewController {
 
+    @IBOutlet weak var details: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
